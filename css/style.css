@@ -1,4 +1,4 @@
-3* {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -56,6 +56,7 @@ body {
 .menu_container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo_name {
@@ -64,10 +65,12 @@ body {
   font-weight: 900;
   font-size: 28px;
   line-height: 42px;
+  margin: 0;
 }
 
 .logo_about {
   color: white;
+  margin: 0;
 }
 
 .nav_link {
@@ -93,6 +96,7 @@ nav {
   font-weight: 300;
   font-size: 30px;
   line-height: 45px;
+  margin: 0;
 }
 
 h1 {
@@ -101,6 +105,7 @@ h1 {
   font-weight: 600;
   font-size: 56px;
   line-height: 84px;
+  margin: 0;
 }
 
 .about_production_text {
@@ -108,26 +113,23 @@ h1 {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+  margin: 0;
 }
 
-.products_btn {
+.btn {
   color: white;
   background-color: #4f8ff0;
   text-transform: uppercase;
   padding: 16px 24px;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 14px;
   line-height: 17px;
-  margin-top: 50px;
+  border: none;
 }
 
-.slider {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  color: white;
-  text-align: center;
-  margin-top: 192px;
+.title_button {
+  padding-top: 48px;
+  padding-bottom: 268px;
 }
 
 .our_products {
@@ -142,10 +144,11 @@ h1 {
 
 .our_products_header {
   text-transform: uppercase;
-  padding-top: 80px;
   font-weight: 800;
   font-size: 28px;
   line-height: 42px;
+  margin: 0;
+  padding-top: 80px;
 }
 
 .our_products_text {
@@ -153,7 +156,6 @@ h1 {
   font-size: 16px;
   line-height: 20px;
   max-width: 920px;
-  margin-top: 24px;
   text-align: center;
 }
 
@@ -204,15 +206,94 @@ h1 {
 
 .legal_about_header {
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 28px;
   line-height: 42px;
-}
-
-.legal_container {
-  display: flex;
+  margin: 0;
 }
 
 .legal_about_text_div {
   max-width: 720px;
+}
+
+.text_main {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.legal_container {
+  margin-top: 80px;
+  display: flex;
+}
+
+.legal_about_text_p {
+  margin-top: 24px;
+}
+
+.line_img {
+  margin-top: 10px;
+}
+
+.buttons_about {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+  margin-bottom: 80px;
+}
+
+.our_team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team {
+  background-color: #f7f7f7;
+}
+
+.team_cards {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+.lawyer_info {
+  margin: 24px;
+}
+
+.team_ph {
+  box-shadow: 2px 2px 12px 0px #2121211f;
+}
+
+.lawyer_name {
+  margin: 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.lawyer_class {
+  margin: 0;
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.feedback {
+  background-image: url(/img/feedback_back.png);
+}
+
+.feedback_showcase {
+  display: flex;
+  gap: 24px;
+}
+
+.feedback_card_top {
+  display: flex;
+}
+
+.feedback_card {
+  background: white;
 }
