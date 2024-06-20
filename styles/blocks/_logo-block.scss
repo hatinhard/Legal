@@ -1,0 +1,22 @@
+.logo-block {
+  &__title {
+    @include logo;
+  }
+  &__subtitle {
+    margin-top: -10px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+  }
+  &__slogan {
+    max-width: 862px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: white;
+  }
+  &__line {
+    margin-top: 48px;
+  }
+}

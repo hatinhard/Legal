@@ -1,0 +1,121 @@
+.our-products-text {
+  &__wrapper {
+    text-align: center;
+  }
+  &__title {
+    @include h2-title;
+  }
+  &__subtitle {
+    margin-top: 24px;
+    @include subtitle;
+    max-width: 920px;
+    margin: 0 auto;
+  }
+}
+
+.grid-item {
+  position: relative;
+  background-color: #fff;
+  padding: 100px 32px 59px 32px;
+  transition: 0.2s;
+  cursor: pointer;
+  &:hover {
+    background: $accent-color;
+    color: #fff;
+    .lt {
+      border-top: 1px solid white;
+      border-left: 1px solid white;
+    }
+    .lb {
+      border-bottom: 1px solid white;
+      border-left: 1px solid white;
+    }
+
+    .rt {
+      border-top: 1px solid white;
+      border-right: 1px solid white;
+    }
+
+    .rb {
+      border-right: 1px solid white;
+      border-bottom: 1px solid white;
+    }
+  }
+
+  &:hover path {
+    fill: white;
+  }
+  &__text {
+    max-width: 360px;
+  }
+
+  &__title {
+    margin-top: 15px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  &__subtitle {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    text-align: center;
+  }
+}
+
+.our-prodcuts-btn {
+  max-width: 200px;
+  margin: 0 auto;
+  @include link;
+  transition: 0.2s;
+  border: 2px solid $accent-color;
+
+  &:hover {
+    background-color: #fff;
+    color: $accent-color;
+    border: 2px solid $accent-color;
+  }
+}
+
+.lt,
+.lb,
+.rt,
+.rb {
+  width: 35px;
+  height: 35px;
+}
+
+.lt {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-top: 1px solid $accent-color;
+  border-left: 1px solid $accent-color;
+}
+
+.lb {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  border-bottom: 1px solid $accent-color;
+  border-left: 1px solid $accent-color;
+}
+
+.rt {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-top: 1px solid $accent-color;
+  border-right: 1px solid $accent-color;
+}
+
+.rb {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  border-right: 1px solid $accent-color;
+  border-bottom: 1px solid $accent-color;
+}

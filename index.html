@@ -3,405 +3,764 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/css/style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
       rel="stylesheet"
     />
+    <link href="./styles/style.css" rel="stylesheet" />
     <title>Document</title>
   </head>
   <body>
     <header>
       <section class="top">
-        <div class="container">
-          <div class="container_top">
+        <div class="black-color">
+          <div class="container">
             <div class="contacts">
-              <div class="mobile_contact">
-                <img
-                  src="./img/phone.png"
-                  alt="иконка телефона"
-                  width="20"
-                  height="20"
-                />
-                <a class="contacts_link" href="tel:+79220229482"
-                  >+7 (922) 022-94-82</a
-                >
-              </div>
-              <div class="email_contact">
-                <img
-                  src="./img/mail.png"
-                  alt="иконка почты"
-                  width="20"
-                  height="20"
-                />
-                <a class="contacts_link" href="mailto:janis62@yahoo.com"
-                  >janis62@yahoo.com</a
-                >
+              <div class="contacts__wrapper">
+                <div class="contacts__main">
+                  <div class="contacts__tel">
+                    <img src="./img/phone.png" alt="икнока телефон" />
+                    <a class="contacts__link" href="tel:+79220229482"
+                      >+7 (922) 022-94-82</a
+                    >
+                  </div>
+                  <div class="contacts__mail">
+                    <img src="./img/mail.png" alt="иконка почты" />
+                    <a class="contacts__link" href="mailto:janis62@yahoo.com"
+                      >janis62@yahoo.com</a
+                    >
+                  </div>
+                </div>
+                <a class="contacts__link-feedback" href="*">Заказать звонок</a>
               </div>
             </div>
-            <a class="call_back" href="*" target="_blank">Заказать звонок</a>
+          </div>
+        </div>
+        <div class="black-color">
+          <div class="container">
+            <div class="header">
+              <div class="header__logo">
+                <h2 class="header__logo-name">Правозащитник</h2>
+                <p class="header__logo-subtitle">юридическая компания</p>
+              </div>
+              <nav class="header__menu">
+                <a class="header__menu-link" href="">Услуги</a>
+                <a class="header__menu-link" href="">О компании</a>
+                <a class="header__menu-link" href="">Наши юристы</a>
+                <a class="header__menu-link" href="">Отзывы</a>
+                <a class="header__menu-link" href="">Новости</a>
+                <a class="header__menu-link" href="">Контакты</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="showcase">
+            <div class="showcase__info">
+              <h2 class="showcase__subtitle">Оказываем весь комплекс</h2>
+              <h1 class="showcase__title">Юридических услуг</h1>
+              <p class="showcase__text">
+                Давно выяснено, что при оценке дизайна и композиции читаемый
+                текст мешает сосредоточиться. Lorem Ipsum используют потому, что
+                тот обеспечивает более или менее стандартное заполнение.
+              </p>
+              <a href="*" class="showcase__products">Наши продукты</a>
+            </div>
           </div>
         </div>
       </section>
     </header>
     <main>
-      <section class="company_about_main">
-        <section class="company_about">
-          <div class="container">
-            <div class="menu_container">
-              <div class="logo">
-                <p class="logo_name">Правозащитник</p>
-                <p class="logo_about">юридическая компания</p>
-              </div>
-              <nav>
-                <a class="nav_link" href="*" target="_blank">Услуги</a>
-                <a class="nav_link" href="*" target="_blank">О компании</a>
-                <a class="nav_link" href="*" target="_blank">Наши юристы</a>
-                <a class="nav_link" href="*" target="_blank">Отзывы</a>
-                <a class="nav_link" href="*" target="_blank">Новости</a>
-                <a class="nav_link" href="*" target="_blank">Контакты</a>
-              </nav>
-            </div>
-          </div>
-        </section>
+      <section class="our-products">
         <div class="container">
-          <div class="about_production">
-            <p class="about_production_p">оказываем весь комплекс</p>
-            <h1>Юридических услуг</h1>
-            <p class="about_production_text">
-              Давно выяснено, что при оценке дизайна и композиции читаемый текст
-              мешает сосредоточиться. Lorem Ipsum используют потому, что тот
-              обеспечивает более или менее стандартное заполнение.
-            </p>
-            <div class="title_button">
-              <button class="btn" type="button">Наши услуги</button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="our_products">
-        <div class="container">
-          <div class="products_title">
-            <h3 class="our_products_header">Наши услуги</h3>
-            <img
-              class="line_img"
-              src="./img/line.png"
-              alt="линия"
-              width="50"
-              height="3"
-            />
-            <p class="our_products_text">
+          <div class="our-products-text__wrapper">
+            <h3 class="our-products-text__title">Наши услуги</h3>
+            <img src="./img/line.png" alt="синяя линия" />
+            <p class="our-products-text__subtitle">
               Давно выяснено, что при оценке дизайна и композиции читаемый текст
               мешает сосредоточиться. Lorem Ipsum используют потому, что тот
               обеспечивает более или менее стандартное заполнение шаблона
             </p>
           </div>
-          <div class="our_products_grid">
-            <div class="product_card">
-              <img
-                class="product_img"
-                src="./img/product-img.png"
-                alt="иконка выполненного действия"
-                width="35"
+          <div class="grid">
+            <div class="grid-item">
+              <div class="lt"></div>
+              <div class="lb"></div>
+              <div class="rt"></div>
+              <div class="rb"></div>
+              <svg
+                class="item__icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
                 height="35"
-              />
-              <div class="text_about_product">
-                <p class="card_header">Банкротство физических лиц</p>
-                <p class="card_text">
+                viewBox="0 0 36 35"
+                fill="none"
+              >
+                <path
+                  d="M29.6665 5.83329V23.3333H12.1665V5.83329H29.6665ZM29.6665 2.91663H12.1665C10.5623 2.91663 9.24984 4.22913 9.24984 5.83329V23.3333C9.24984 24.9375 10.5623 26.25 12.1665 26.25H29.6665C31.2707 26.25 32.5832 24.9375 32.5832 23.3333V5.83329C32.5832 4.22913 31.2707 2.91663 29.6665 2.91663ZM18.6853 20.4166L13.6248 15.3125L15.6665 13.2562L18.6853 16.2895L26.1665 8.74996L28.2082 10.8062L18.6853 20.4166ZM6.33317 8.74996H3.4165V29.1666C3.4165 30.7708 4.729 32.0833 6.33317 32.0833H26.7498V29.1666H6.33317V8.74996Z"
+                  fill="#4F8FF0"
+                />
+              </svg>
+              <div class="grid-item__text">
+                <p class="grid-item__title">Банкротство физических лиц</p>
+                <p class="grid-item__subtitle">
                   Процедуру банкротства физических лиц в России регулирует закон
                   «О несостоятельности (банкротстве)».
                 </p>
               </div>
             </div>
-            <div class="product_card">
-              <img
-                class="product_img"
-                src="./img/product-img.png"
-                alt="иконка выполненного действия"
-                width="35"
+
+            <div class="grid-item">
+              <div class="lt"></div>
+              <div class="lb"></div>
+              <div class="rt"></div>
+              <div class="rb"></div>
+              <svg
+                class="item__icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
                 height="35"
-              />
-              <div class="text_about_product">
-                <p class="card_header">Сопровождение сделок</p>
-                <p class="card_text">
+                viewBox="0 0 36 35"
+                fill="none"
+              >
+                <path
+                  d="M29.6665 5.83329V23.3333H12.1665V5.83329H29.6665ZM29.6665 2.91663H12.1665C10.5623 2.91663 9.24984 4.22913 9.24984 5.83329V23.3333C9.24984 24.9375 10.5623 26.25 12.1665 26.25H29.6665C31.2707 26.25 32.5832 24.9375 32.5832 23.3333V5.83329C32.5832 4.22913 31.2707 2.91663 29.6665 2.91663ZM18.6853 20.4166L13.6248 15.3125L15.6665 13.2562L18.6853 16.2895L26.1665 8.74996L28.2082 10.8062L18.6853 20.4166ZM6.33317 8.74996H3.4165V29.1666C3.4165 30.7708 4.729 32.0833 6.33317 32.0833H26.7498V29.1666H6.33317V8.74996Z"
+                  fill="#4F8FF0"
+                />
+              </svg>
+              <div class="grid-item__text">
+                <p class="grid-item__title">Сопровождение сделок</p>
+                <p class="grid-item__subtitle">
                   Инициирование, оформление, осуществление сделки и достижение
                   результата — это именно то, чем мы занимаемся каждый день.
                 </p>
               </div>
             </div>
-            <div class="product_card">
-              <img
-                class="product_img"
-                src="./img/product-img.png"
-                alt="иконка выполненного действия"
-                width="35"
+
+            <div class="grid-item">
+              <div class="lt"></div>
+              <div class="lb"></div>
+              <div class="rt"></div>
+              <div class="rb"></div>
+              <svg
+                class="item__icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
                 height="35"
-              />
-              <div class="text_about_product">
-                <p class="card_header">Корпоративные споры</p>
-                <p class="card_text">
+                viewBox="0 0 36 35"
+                fill="none"
+              >
+                <path
+                  d="M29.6665 5.83329V23.3333H12.1665V5.83329H29.6665ZM29.6665 2.91663H12.1665C10.5623 2.91663 9.24984 4.22913 9.24984 5.83329V23.3333C9.24984 24.9375 10.5623 26.25 12.1665 26.25H29.6665C31.2707 26.25 32.5832 24.9375 32.5832 23.3333V5.83329C32.5832 4.22913 31.2707 2.91663 29.6665 2.91663ZM18.6853 20.4166L13.6248 15.3125L15.6665 13.2562L18.6853 16.2895L26.1665 8.74996L28.2082 10.8062L18.6853 20.4166ZM6.33317 8.74996H3.4165V29.1666C3.4165 30.7708 4.729 32.0833 6.33317 32.0833H26.7498V29.1666H6.33317V8.74996Z"
+                  fill="#4F8FF0"
+                />
+              </svg>
+              <div class="grid-item__text">
+                <p class="grid-item__title">Корпоративные споры</p>
+                <p class="grid-item__subtitle">
                   Корпоративные споры – споры, связанные с созданием юрлица,
-                  управлением или участием в нем
+                  управлением или участием в нем.
                 </p>
               </div>
             </div>
-            <div class="product_card">
-              <img
-                class="product_img"
-                src="./img/product-img.png"
-                alt="иконка выполненного действия"
-                width="35"
+
+            <div class="grid-item">
+              <div class="lt"></div>
+              <div class="lb"></div>
+              <div class="rt"></div>
+              <div class="rb"></div>
+              <svg
+                class="item__icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
                 height="35"
-              />
-              <div class="text_about_product">
-                <p class="card_header">Недвижимость и строительство</p>
-                <p class="card_text">
+                viewBox="0 0 36 35"
+                fill="none"
+              >
+                <path
+                  d="M29.6665 5.83329V23.3333H12.1665V5.83329H29.6665ZM29.6665 2.91663H12.1665C10.5623 2.91663 9.24984 4.22913 9.24984 5.83329V23.3333C9.24984 24.9375 10.5623 26.25 12.1665 26.25H29.6665C31.2707 26.25 32.5832 24.9375 32.5832 23.3333V5.83329C32.5832 4.22913 31.2707 2.91663 29.6665 2.91663ZM18.6853 20.4166L13.6248 15.3125L15.6665 13.2562L18.6853 16.2895L26.1665 8.74996L28.2082 10.8062L18.6853 20.4166ZM6.33317 8.74996H3.4165V29.1666C3.4165 30.7708 4.729 32.0833 6.33317 32.0833H26.7498V29.1666H6.33317V8.74996Z"
+                  fill="#4F8FF0"
+                />
+              </svg>
+              <div class="grid-item__text">
+                <p class="grid-item__title">Недвижимость и строительство</p>
+                <p class="grid-item__subtitle">
                   Консультируем по различным вопросам в области недвижимости,
-                  включая градостроительное регулирование, земельные отношения
+                  включая градостроительное регулирование, земельные отношения.
                 </p>
               </div>
             </div>
-            <div class="product_card">
-              <img
-                class="product_img"
-                src="./img/product-img.png"
-                alt="иконка выполненного действия"
-                width="35"
+
+            <div class="grid-item">
+              <div class="lt"></div>
+              <div class="lb"></div>
+              <div class="rt"></div>
+              <div class="rb"></div>
+              <svg
+                class="item__icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
                 height="35"
-              />
-              <div class="text_about_product">
-                <p class="card_header">Возврат страховых премий</p>
-                <p class="card_text">
+                viewBox="0 0 36 35"
+                fill="none"
+              >
+                <path
+                  d="M29.6665 5.83329V23.3333H12.1665V5.83329H29.6665ZM29.6665 2.91663H12.1665C10.5623 2.91663 9.24984 4.22913 9.24984 5.83329V23.3333C9.24984 24.9375 10.5623 26.25 12.1665 26.25H29.6665C31.2707 26.25 32.5832 24.9375 32.5832 23.3333V5.83329C32.5832 4.22913 31.2707 2.91663 29.6665 2.91663ZM18.6853 20.4166L13.6248 15.3125L15.6665 13.2562L18.6853 16.2895L26.1665 8.74996L28.2082 10.8062L18.6853 20.4166ZM6.33317 8.74996H3.4165V29.1666C3.4165 30.7708 4.729 32.0833 6.33317 32.0833H26.7498V29.1666H6.33317V8.74996Z"
+                  fill="#4F8FF0"
+                />
+              </svg>
+              <div class="grid-item__text">
+                <p class="grid-item__title">Возврат страховых премий</p>
+                <p class="grid-item__subtitle">
                   Для возврата страховой премии нужно подготовить следующий
                   пакет документов: паспорт страхователя; оригинал страхового
-                  полиса
+                  полиса.
                 </p>
               </div>
             </div>
-            <div class="product_card">
-              <img
-                class="product_img"
-                src="./img/product-img.png"
-                alt="иконка выполненного действия"
-                width="35"
+
+            <div class="grid-item">
+              <div class="lt"></div>
+              <div class="lb"></div>
+              <div class="rt"></div>
+              <div class="rb"></div>
+              <svg
+                class="item__icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
                 height="35"
-              />
-              <div class="text_about_product">
-                <p class="card_header">Налоговое право и споры</p>
-                <p class="card_text">
+                viewBox="0 0 36 35"
+                fill="none"
+              >
+                <path
+                  d="M29.6665 5.83329V23.3333H12.1665V5.83329H29.6665ZM29.6665 2.91663H12.1665C10.5623 2.91663 9.24984 4.22913 9.24984 5.83329V23.3333C9.24984 24.9375 10.5623 26.25 12.1665 26.25H29.6665C31.2707 26.25 32.5832 24.9375 32.5832 23.3333V5.83329C32.5832 4.22913 31.2707 2.91663 29.6665 2.91663ZM18.6853 20.4166L13.6248 15.3125L15.6665 13.2562L18.6853 16.2895L26.1665 8.74996L28.2082 10.8062L18.6853 20.4166ZM6.33317 8.74996H3.4165V29.1666C3.4165 30.7708 4.729 32.0833 6.33317 32.0833H26.7498V29.1666H6.33317V8.74996Z"
+                  fill="#4F8FF0"
+                />
+              </svg>
+              <div class="grid-item__text">
+                <p class="grid-item__title">Налоговое право и споры</p>
+                <p class="grid-item__subtitle">
                   Сопровождение налоговых проверок на любой стадии, анализ и
                   подготовка документов, защита при налоговых спорах.
                 </p>
               </div>
             </div>
           </div>
+          <a href="*" class="our-prodcuts-btn">Все услуги</a>
         </div>
       </section>
-      <section class="legal_about">
+      <section class="about-company__section">
         <div class="container">
-          <div class="legal_container">
-            <div class="legal_about_text_div">
-              <h3 class="legal_about_header">
+          <div class="about-company__wrapper">
+            <div class="about-company__text-wrapper">
+              <h3 class="about-company__title">
                 Юридическая компания
-                <span class="logo_name">правозащитник</span>
+                <span class="about-company__logo">правозащитник</span>
               </h3>
-              <img
-                class="line_img"
-                src="./img/line.png"
-                alt="линия"
-                width="50"
-                height="3"
-              />
-              <div class="legal_about_text_p">
-                <p class="text_main">
-                  Давно выяснено, что при оценке дизайна и композиции читаемый
-                  текст мешает сосредоточиться. Lorem Ipsum используют потому,
-                  что тот обеспечивает более или менее стандартное заполнение.
-                </p>
-                <p class="text_main">
-                  Есть много вариантов Lorem Ipsum, но большинство из них имеет
-                  не всегда приемлемые модификации, например, юмористические
-                  вставки или слова, которые даже отдалённо не напоминают
-                  латынь. Если вам нужен Lorem Ipsum для серьёзного проекта, вы
-                  наверняка не хотите какой-нибудь шутки, скрытой в середине
-                  абзаца.
-                </p>
-                <p class="text_main">
-                  За прошедшие годы текст Lorem Ipsum получил много версий.
-                  Некоторые версии появились по ошибке, некоторые - намеренно
-                  (например, юмористические варианты).
-                </p>
+              <img src="./img/line.png" alt="синяя линия" />
+              <p class="about-company__subtitle">
+                Давно выяснено, что при оценке дизайна и композиции читаемый
+                текст мешает сосредоточиться. Lorem Ipsum используют потому, что
+                тот обеспечивает более или менее стандартное заполнение.
+              </p>
+
+              <p class="about-company__subtitle">
+                Есть много вариантов Lorem Ipsum, но большинство из них имеет не
+                всегда приемлемые модификации, например, юмористические вставки
+                или слова, которые даже отдалённо не напоминают латынь. Если вам
+                нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите
+                какой-нибудь шутки, скрытой в середине абзаца.
+              </p>
+
+              <p class="about-company__subtitle">
+                За прошедшие годы текст Lorem Ipsum получил много версий.
+                Некоторые версии появились по ошибке, некоторые - намеренно
+                (например, юмористические варианты).
+              </p>
+              <div class="about-company__buttons">
+                <a href="*" class="about-company__history">История компании</a>
+                <a href="" class="about-company__certificates">Сертификаты</a>
               </div>
             </div>
             <img
+              class="about-company__img"
               src="./img/books.png"
               alt="книги"
               width="535"
               height="359"
-              srcset="./img/books@2x.png 2x"
+              srcset="./img/books.png 1x, ./img/books@2x.png 2x"
             />
-          </div>
-          <div class="buttons_about">
-            <button class="btn" type="button">История компании</button>
-            <button class="btn" type="button">Сертификаты</button>
           </div>
         </div>
       </section>
-
-      <section class="team">
+      <section class="our-personal__section">
         <div class="container">
-          <div class="our_team">
-            <h3 class="our_products_header">Наши юристы</h3>
-            <img
-              class="line_img"
-              src="./img/line.png"
-              alt="линия"
-              width="50"
-              height="3"
-            />
-            <p class="text_main">
-              Давно выяснено, что при оценке дизайна и композиции читаемый текст
-              мешает сосредоточиться. Lorem Ipsum используют потому, что тот
-              обеспечивает более или менее стандартное заполнение шаблона
-            </p>
-            <div class="team_cards">
-              <div class="lawyer_card">
-                <img
-                  src="./img/Polina.png"
-                  class="team_ph"
-                  alt="Фото Полины"
-                  width="312"
-                  height="320"
-                  srcset="./img/Polina@2x.png 2x"
-                />
-                <div class="lawyer_info">
-                  <p class="lawyer_name">Горюнова Полина Алексеевна</p>
-                  <p class="lawyer_class">Юрист международного права</p>
-                </div>
-              </div>
-
-              <div class="lawyer_card">
-                <img
-                  src="./img/Alex.png"
-                  class="team_ph"
-                  alt="Фото Александра"
-                  width="312"
-                  height="320"
-                  srcset="./img/Alex@2x.png 2x"
-                />
-                <div class="lawyer_info">
-                  <p class="lawyer_name">Миронов Александр Германович</p>
-                  <p class="lawyer_class">
-                    Кредитный адвокат, банковский юрист
+          <div class="our-personal__wrapper">
+            <div class="our-personal__text">
+              <h3 class="our-personal__title">Наши юристы</h3>
+              <img src="./img/line.png" alt="синяя линия" />
+              <p class="our-personal__subtitle">
+                Давно выяснено, что при оценке дизайна и композиции читаемый
+                текст мешает сосредоточиться. Lorem Ipsum используют потому, что
+                тот обеспечивает более или менее стандартное заполнение шаблона
+              </p>
+            </div>
+            <div class="our-personal__showcase">
+              <div class="our-personal__item">
+                <div class="our-personal__overlay">
+                  <div class="lt"></div>
+                  <div class="lb"></div>
+                  <div class="rt"></div>
+                  <div class="rb"></div>
+                  <p class="our-personal__overlay-name">
+                    Шестакова Елизавета Егоровна
+                  </p>
+                  <p class="our-personal__overlay-class">
+                    Юридический консультант
+                  </p>
+                  <p class="our-personal__overlay-text">
+                    Есть много вариантов Lorem Ipsum, но большинство из них
+                    имеет не всегда приемлемые модификации, например,
+                    юмористические вставки или слова, которые даже отдалённо не
+                    напоминают латынь.
+                  </p>
+                  <p class="our-personal__overlay-practice">
+                    12 лет юридической практики
                   </p>
                 </div>
-              </div>
-
-              <div class="lawyer_card">
                 <img
                   src="./img/Polina.png"
-                  class="team_ph"
-                  alt="книги"
+                  alt="Фото сотрудника"
                   width="312"
                   height="320"
-                  srcset="./img/Polina@2x.png 2x"
+                  srcset="./img/Polina.png 1x, ./Polina@2x.png 2x"
+                  class="our-personal__photo"
                 />
-                <div class="lawyer_info">
-                  <p class="lawyer_name">123</p>
-                  <p class="lawyer_class">123</p>
-                </div>
+                <p class="our-personal__personal-name">
+                  Горюнова Полина Алексеевна
+                </p>
+                <p class="our-personal__specialization">
+                  Юрист международного права
+                </p>
               </div>
-
-              <div class="lawyer_card">
+              <div class="our-personal__item">
+                <div class="our-personal__overlay">
+                  <div class="lt"></div>
+                  <div class="lb"></div>
+                  <div class="rt"></div>
+                  <div class="rb"></div>
+                  <p class="our-personal__overlay-name">
+                    Шестакова Елизавета Егоровна
+                  </p>
+                  <p class="our-personal__overlay-class">
+                    Юридический консультант
+                  </p>
+                  <p class="our-personal__overlay-text">
+                    Есть много вариантов Lorem Ipsum, но большинство из них
+                    имеет не всегда приемлемые модификации, например,
+                    юмористические вставки или слова, которые даже отдалённо не
+                    напоминают латынь.
+                  </p>
+                  <p class="our-personal__overlay-practice">
+                    12 лет юридической практики
+                  </p>
+                </div>
+                <img
+                  src="./img/Alex.png"
+                  alt="Фото сотрудника"
+                  width="312"
+                  height="320"
+                  srcset="./img/Alex.png 1x, ./Alex@2x.png 2x"
+                  class="our-personal__photo"
+                />
+                <p class="our-personal__personal-name">
+                  Миронов Александр Германович
+                </p>
+                <p class="our-personal__specialization">
+                  Кредитный адвокат, банковский юрист
+                </p>
+              </div>
+              <div class="our-personal__item">
+                <div class="our-personal__overlay">
+                  <div class="lt"></div>
+                  <div class="lb"></div>
+                  <div class="rt"></div>
+                  <div class="rb"></div>
+                  <p class="our-personal__overlay-name">
+                    Шестакова Елизавета Егоровна
+                  </p>
+                  <p class="our-personal__overlay-class">
+                    Юридический консультант
+                  </p>
+                  <p class="our-personal__overlay-text">
+                    Есть много вариантов Lorem Ipsum, но большинство из них
+                    имеет не всегда приемлемые модификации, например,
+                    юмористические вставки или слова, которые даже отдалённо не
+                    напоминают латынь.
+                  </p>
+                  <p class="our-personal__overlay-practice">
+                    12 лет юридической практики
+                  </p>
+                </div>
+                <img
+                  src="./img/Polina.png"
+                  alt="Фото сотрудника"
+                  width="312"
+                  height="320"
+                  srcset="./img/Polina.png 1x, ./Polina@2x.png 2x"
+                  class="our-personal__photo"
+                />
+                <p class="our-personal__personal-name">
+                  Шестакова Елизавета Егоровна
+                </p>
+                <p class="our-personal__specialization">
+                  Юридический консультант
+                </p>
+              </div>
+              <div class="our-personal__item">
+                <div class="our-personal__overlay">
+                  <div class="lt"></div>
+                  <div class="lb"></div>
+                  <div class="rt"></div>
+                  <div class="rb"></div>
+                  <p class="our-personal__overlay-name">
+                    Шестакова Елизавета Егоровна
+                  </p>
+                  <p class="our-personal__overlay-class">
+                    Юридический консультант
+                  </p>
+                  <p class="our-personal__overlay-text">
+                    Есть много вариантов Lorem Ipsum, но большинство из них
+                    имеет не всегда приемлемые модификации, например,
+                    юмористические вставки или слова, которые даже отдалённо не
+                    напоминают латынь.
+                  </p>
+                  <p class="our-personal__overlay-practice">
+                    12 лет юридической практики
+                  </p>
+                </div>
                 <img
                   src="./img/Max.png"
-                  class="team_ph"
-                  alt="Фото Максима"
+                  alt="Фото сотрудника"
                   width="312"
                   height="320"
-                  srcset="./img/Max@2x.png 2x"
+                  srcset="./img/Max.png 1x, ./Max@2x.png 2x"
+                  class="our-personal__photo"
                 />
-                <div class="lawyer_info">
-                  <p class="lawyer_name">Архипов Максим Константинович</p>
-                  <p class="lawyer_class">Корпоративный юрист</p>
-                </div>
+                <p class="our-personal__personal-name">
+                  Архипов Максим Константинович
+                </p>
+                <p class="our-personal__specialization">Корпоративный юрист</p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="feedback">
+      <section class="feedback__section">
         <div class="container">
-          <h3 class="our_products_header">Что о нас говорят клиенты</h3>
-          <img
-            class="line_img"
-            src="./img/line.png"
-            alt="линия"
-            width="50"
-            height="3"
-          />
-          <div class="feedback_showcase">
-            <div class="feedback_card">
-              <div class="feedback_card_top">
-                <img
-                  src="/img/user_photo1.png"
-                  alt="фото клиента"
-                  width="80"
-                  height="80"
-                />
-                <div class="feedback_card_user_name">
-                  <p class="user_company">ООО “ИТ Консалтинг”</p>
-                  <p class="user_name">Логинова Анастасия</p>
+          <div class="feedback__main">
+            <div class="feedback__wrapper">
+              <h3 class="feedback__title">Что о нас говорят клиенты</h3>
+              <img src="./img/line.png" alt="синяя линия" />
+            </div>
+            <div class="feedback__flex">
+              <div class="feedback__item">
+                <div class="feedback__item-top">
+                  <img
+                    src="./img/user_photo1.png"
+                    alt="фото клиента"
+                    width="80"
+                    height="80"
+                    class="feedback__costumer-photo"
+                  />
+                  <div class="feedback__costumer-info">
+                    <p class="feedback__costumer-company">
+                      ООО “ИТ Консалтинг”
+                    </p>
+                    <p class="feedback__costumer-name">Логинова Анастасия</p>
+                  </div>
+                  <img
+                    src="./svg/feather.svg"
+                    alt="Иконка пера"
+                    width="55"
+                    height="55"
+                  />
                 </div>
-                <img
-                  src="/img/feather.svg"
-                  alt="иконка пера"
-                  width="50"
-                  height="50"
-                />
+                <p class="feedback__text">
+                  Многие думают, что Lorem Ipsum - взятый с потолка
+                  псевдо-латинский набор слов, но это не совсем так. Его корни
+                  уходят в один фрагмент классической латыни 45 года н.э., то
+                  есть более двух тысячелетий назад. Ричард МакКлинток,
+                  профессор латыни из колледжа Hampden-Sydney, штат Вирджиния,
+                  взял одно из самых странных слов ...
+                </p>
               </div>
-              <p class="user_feedback_text">
-                Многие думают, что Lorem Ipsum - взятый с потолка
-                псевдо-латинский набор слов, но это не совсем так. Его корни
-                уходят в один фрагмент классической латыни 45 года н.э., то есть
-                более двух тысячелетий назад. Ричард МакКлинток, профессор
-                латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из
-                самых странных слов ...
+
+              <div class="feedback__item">
+                <div class="feedback__item-top">
+                  <img
+                    src="./img/user_photo2.png"
+                    alt="фото клиента"
+                    width="80"
+                    height="80"
+                    class="feedback__costumer-photo"
+                  />
+                  <div class="feedback__costumer-info">
+                    <p class="feedback__costumer-company">АО “ПРОМАРШ”</p>
+                    <p class="feedback__costumer-name">Макаров Сергей</p>
+                  </div>
+                  <img
+                    src="./svg/feather.svg"
+                    alt="Иконка пера"
+                    width="55"
+                    height="55"
+                  />
+                </div>
+                <p class="feedback__text">
+                  Если вам нужен Lorem Ipsum для серьёзного проекта, вы
+                  наверняка не хотите какой-нибудь шутки, скрытой в середине
+                  абзаца. Также все другие известные генераторы Lorem Ipsum
+                  используют один и тот же текст, который они просто повторяют,
+                  пока не достигнут нужный объём.
+                </p>
+              </div>
+            </div>
+            <div class="feedback__links">
+              <a href="*" class="feedback__btn">Все отзывы</a>
+              <a href="*" class="feedback__btn">Написать отзыв</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="useful-materials__section">
+        <div class="container">
+          <div class="useful-materials__wrapper">
+            <div class="useful-materials__text">
+              <h3 class="useful-materials__title">Полезные материалы</h3>
+              <img src="./img/line.png" alt="синяя линия" />
+              <p class="useful-materials__subtitle">
+                Давно выяснено, что при оценке дизайна и композиции читаемый
+                текст мешает сосредоточиться. Lorem Ipsum используют потому, что
+                тот обеспечивает более или менее стандартное заполнение шаблона
               </p>
             </div>
-            <div class="feedback_card">
-              <div class="feedback_card_top">
-                <img
-                  src="/img/user_photo2.png"
-                  alt="фото клиента"
-                  width="80"
-                  height="80"
-                />
-                <div class="feedback_card_user_name">
-                  <p class="user_company">АО “ПРОМАРШ”</p>
-                  <p class="user_name">Макаров Сергей</p>
+            <div class="useful-materials__flex-container">
+              <div class="useful-materials__item">
+                <div class="useful-materials__images">
+                  <img
+                    src="./img/Buildings.png"
+                    alt="здания"
+                    width="424"
+                    height="270"
+                    srcset="./img/Buildings.png 1x, ./img/Buildings@2x.png 2x"
+                    class="useful-materials__img"
+                  />
+                  <img
+                    src="/img/Eye.png"
+                    alt="иконка глаза"
+                    width="40"
+                    height="40"
+                    class="useful-materials__eye"
+                  />
                 </div>
-                <img
-                  src="/img/feather.svg"
-                  alt="иконка пера"
-                  width="50"
-                  height="50"
-                />
+                <p class="useful-materials__item-title">
+                  Воистину радостный звук: шёпот бессменных лидеров
+                </p>
+                <time class="useful-materials__date" datetime="2023-04-24"
+                  >24 апр. 2023 г.</time
+                >
+                <p class="useful-materials__item-subtitle">
+                  Предварительные выводы неутешительны: синтетическое
+                  тестирование, а также свежий взгляд на привычные вещи —
+                  безусловно открывает новые горизонты для экономической
+                  целесообразности принимаемых решений.
+                </p>
               </div>
-              <p class="user_feedback_text">
-                Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка
-                не хотите какой-нибудь шутки, скрытой в середине абзаца. Также
-                все другие известные генераторы Lorem Ipsum используют один и
-                тот же текст, который они просто повторяют, пока не достигнут
-                нужный объём.
-              </p>
+
+              <div class="useful-materials__item">
+                <div class="useful-materials__images">
+                  <img
+                    src="./img/Tower.png"
+                    alt="Башня"
+                    width="424"
+                    height="270"
+                    srcset="./img/Tower.png 1x, ./img/Tower@2x.png 2x"
+                    class="useful-materials__img"
+                  />
+                  <img
+                    src="/img/Eye.png"
+                    alt="иконка глаза"
+                    width="40"
+                    height="40"
+                    class="useful-materials__eye"
+                  />
+                </div>
+                <p class="useful-materials__item-title">
+                  Франция намерена исследовать, почему объемы выросли
+                </p>
+                <time class="useful-materials__date" datetime="2023-03-12"
+                  >12 мар. 2023 г.</time
+                >
+                <p class="useful-materials__item-subtitle">
+                  Для современного мира новая модель организационной
+                  деятельности влечет за собой процесс внедрения и модернизации
+                  вывода текущих активов. Являясь всего лишь частью общей
+                  картины, базовые сценарии поведения...
+                </p>
+              </div>
+
+              <div class="useful-materials__item">
+                <div class="useful-materials__images">
+                  <img
+                    src="./img/Hands.png"
+                    alt="здания"
+                    width="424"
+                    height="270"
+                    srcset="./img/Hands.png 1x, ./img/Hands@2x.png 2x"
+                    class="useful-materials__img"
+                  />
+                  <img
+                    src="/img/Eye.png"
+                    alt="иконка глаза"
+                    width="40"
+                    height="40"
+                    class="useful-materials__eye"
+                  />
+                </div>
+                <p class="useful-materials__item-title">
+                  Сплочённость команды профессионалов продолжает удивлять
+                </p>
+                <time class="useful-materials__date" datetime="2023-02-02"
+                  >02 фев. 2023 г.</time
+                >
+                <p class="useful-materials__item-subtitle">
+                  Современные технологии достигли такого уровня, что курс на
+                  социально-ориентированный национальный проект способствует
+                  повышению качества соответствующих условий активизации.
+                </p>
+              </div>
             </div>
+            <a href="*" class="useful-materials__link">Все новости</a>
           </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <section class="bottom-section">
+        <div class="container">
+          <div class="logo-block">
+            <div class="logo-block__wrapper">
+              <div class="logo-block__left">
+                <h3 class="logo-block__title">Правозащитник</h3>
+                <p class="logo-block__subtitle">юридическая компания</p>
+              </div>
+              <div class="logo-block__right">
+                <p class="logo-block__slogan">
+                  Предварительные выводы неутешительны: синтетическое
+                  тестирование, а также свежий взгляд на привычные вещи —
+                  безусловно открывает новые горизонты для экономической
+                  целесообразности принимаемых решений.
+                </p>
+              </div>
+            </div>
+            <img
+              src="./img/black-line.png"
+              class="logo-block__line"
+              alt="линия"
+            />
+          </div>
+          <div class="bottom__wrapper">
+            <div class="bottom__contacts">
+              <div class="bottom__address">
+                <img
+                  src="./img/map.png"
+                  width="55"
+                  height="55"
+                  alt="икнока карты"
+                  class="bottom__icon"
+                />
+                <div class="bottom__text-in-contacts">
+                  <p class="bottom__text-at-the-top">Наш адрес</p>
+                  <p class="bottom__text-at-the-end">
+                    г. Одинцово, пр. Будапештсткая, 40
+                  </p>
+                </div>
+              </div>
+              <div class="bottom__registation">
+                <img
+                  src="./img/phone-bottom.png"
+                  width="55"
+                  height="55"
+                  alt="икнока телефона"
+                  class="bottom__icon"
+                />
+                <div class="bottom__text-in-contacts">
+                  <p class="bottom__text-at-the-top">Запись на консультанцию</p>
+                  <p class="bottom__text-at-the-end">+7 (922) 022-94-82</p>
+                </div>
+              </div>
+              <div class="bottom__correspondence">
+                <img
+                  src="./img/mail-bottom.png"
+                  width="55"
+                  height="55"
+                  alt="икнока почты"
+                  class="bottom__icon"
+                />
+                <div class="bottom__text-in-contacts">
+                  <p class="bottom__text-at-the-top">Корреспонденция</p>
+                  <p class="bottom__text-at-the-end">janis62@yahoo.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="bottom__menu-and-question">
+              <div class="bottom-menu">
+                <a href="*" class="bottom-menu__link">Услуги</a>
+                <a href="*" class="bottom-menu__link">О компании</a>
+                <a href="*" class="bottom-menu__link">Сертификаты</a>
+                <a href="*" class="bottom-menu__link">Отзывы</a>
+                <a href="*" class="bottom-menu__link">Полезные материалы</a>
+                <a href="*" class="bottom-menu__link">Благотворительность</a>
+              </div>
+              <div class="ask-question__wrapper">
+                <div class="ask-question__about-lawyer">
+                  <img
+                    src="./img/Alex.png"
+                    width="65"
+                    height="65"
+                    alt="фото юриста"
+                    class="ask-question__photo-lawyer"
+                  />
+                  <div class="ask-question__lawyer-info">
+                    <p class="ask-question__lawyer-name">Миронов Александр</p>
+                    <p class="ask-question__lawyer-class">Ведущий юрист</p>
+                  </div>
+                </div>
+                <p class="ask-question__text">
+                  Есть над чем задуматься: тщательные исследования конкурентов
+                  разоблачены. Идейные соображения высшего порядка, а также
+                  перспективное планирование играет
+                </p>
+                <a href="*" class="ask-question__link">Задать вопрос юристу</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="legal__section">
+        <div class="container">
+          <div class="legal">
+            <div class="legal__left-side">
+              <p class="legal__rights">Все права защищены, 2023</p>
+            </div>
+            <div class="legal__left-side">
+              <p class="legal__NDA">Политика обработки персональных данных</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>

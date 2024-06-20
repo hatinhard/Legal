@@ -1,0 +1,167 @@
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: content-box;
+}
+
+.grid {
+  max-width: 1320px;
+  margin: 48px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 24px;
+  row-gap: 38px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-company {
+  &__wrapper {
+    display: flex;
+    gap: 64px;
+  }
+  &__buttons {
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+  }
+}
+
+.our-personal {
+  &__text {
+    max-width: 920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  &__showcase {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+  }
+}
+
+.feedback {
+  &__main {
+    margin: 0 auto;
+    max-width: 1320px;
+  }
+
+  &__flex {
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+  }
+  &__item-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+  }
+  &__links {
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+  }
+}
+
+.useful-materials {
+  &__wrapper {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+
+  &__flex-container {
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+  }
+
+  &__item {
+    height: 481px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__item-subtitle {
+    flex-grow: 2;
+  }
+  &__subtitle {
+    max-width: 920px;
+    margin: 24px auto 0;
+  }
+}
+
+.logo-block {
+  max-width: 1320px;
+  margin: 0 auto;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 182px;
+  }
+}
+
+.bottom {
+  &__wrapper {
+    max-width: 1320px;
+    margin: 48px auto 0;
+    display: flex;
+    gap: 141px;
+  }
+  &__menu-and-question {
+    display: flex;
+    align-items: start;
+    gap: 24px;
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__address,
+  &__registation,
+  &__correspondence {
+    display: flex;
+    gap: 24px;
+  }
+  &__menu-and-question {
+    display: flex;
+    gap: 24px;
+  }
+}
+
+.bottom-menu {
+  width: 312px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ask-question {
+  &__about-lawyer {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  &__wrapper {
+    max-width: 424px;
+  }
+}
+
+.legal {
+  margin: 0 auto;
+  max-width: 1320px;
+  display: flex;
+  justify-content: space-between;
+}

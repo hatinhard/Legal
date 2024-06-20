@@ -1,0 +1,25 @@
+.bottom {
+  &__text-at-the-top {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.4px;
+    text-transform: uppercase;
+    color: #8c8c8c;
+  }
+  &__text-at-the-end {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+  }
+}
+.bottom-menu {
+  &__link {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+}

@@ -1,0 +1,36 @@
+@mixin h2-title {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+@mixin subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #222222;
+  text-align: center;
+}
+
+@mixin logo {
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 42px;
+  color: $accent-color;
+  text-transform: uppercase;
+}
+
+@mixin link {
+  display: block;
+  text-align: center;
+  background-color: $accent-color;
+  color: #fff;
+  text-decoration: none;
+  padding: 16px 24px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16.8px;
+  text-transform: uppercase;
+}

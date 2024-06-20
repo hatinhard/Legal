@@ -1,0 +1,54 @@
+.useful-materials {
+  &__text {
+    text-align: center;
+  }
+  &__title {
+    @include h2-title;
+  }
+  &__subtitle {
+    @include subtitle;
+  }
+
+  &__item-title {
+    margin-top: 24.5px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  &__date {
+    margin-top: 16px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14.4px;
+  }
+
+  &__item-subtitle {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+
+  &__link {
+    @include link;
+    max-width: 155px;
+    margin: 48px auto 0;
+    transition: 0.2s;
+    border: 2px solid $accent-color;
+
+    &:hover {
+      background-color: #fff;
+      color: $accent-color;
+      border: 2px solid $accent-color;
+    }
+  }
+}
+
+// .useful-materials__img {
+//   position: relative;
+// }
+
+// .useful-materials__eye {
+//   position: absolute;
+//   z-index: 2;
+// }

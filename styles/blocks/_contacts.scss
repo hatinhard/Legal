@@ -1,0 +1,28 @@
+.contacts {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__main {
+    display: flex;
+    gap: 24px;
+  }
+  &__link {
+    text-decoration: none;
+    font-weight: 600;
+    size: 14px;
+    line-height: 16.8px;
+    color: white;
+  }
+
+  &__link-feedback {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: $accent-color;
+  }
+}

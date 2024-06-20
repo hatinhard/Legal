@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+  &__menu {
+    display: flex;
+    gap: 32px;
+  }
+  &__logo-name {
+    @include logo;
+  }
+  &__logo-subtitle {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+  }
+  &__menu-link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: white;
+  }
+}
