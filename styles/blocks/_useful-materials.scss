@@ -31,7 +31,7 @@
 
   &__link {
     @include link;
-    max-width: 155px;
+    max-width: 160px;
     margin: 48px auto 0;
     transition: 0.2s;
     border: 2px solid $accent-color;
@@ -44,11 +44,75 @@
   }
 }
 
-// .useful-materials__img {
-//   position: relative;
-// }
+.useful-materials__images {
+  position: relative;
+}
 
-// .useful-materials__eye {
-//   position: absolute;
-//   z-index: 2;
-// }
+.useful-materials__eye {
+  position: absolute;
+  top: 115px;
+  right: 192px;
+  z-index: 2;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.useful-materials__item:hover {
+  .useful-materials__eye {
+    opacity: 1;
+  }
+  .useful-materials__corners {
+    opacity: 1;
+  }
+  .useful-materials__image-hover {
+    opacity: 0.6;
+  }
+}
+
+.useful-materials__corners {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.useful-materials__lb,
+.useful-materials__lt,
+.useful-materials__rt,
+.useful-materials__rb {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+}
+
+.useful-materials__lb {
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  left: 20px;
+  bottom: 20px;
+}
+.useful-materials__lt {
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  left: 20px;
+  top: 20px;
+}
+.useful-materials__rt {
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+  right: 20px;
+  top: 20px;
+}
+.useful-materials__rb {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  right: 20px;
+  bottom: 20px;
+}
+
+.useful-materials__image-hover {
+  background-color: #4f8ff0;
+  width: 424px;
+  height: 270px;
+  position: absolute;
+  opacity: 0;
+  transition: 0.3s;
+}
